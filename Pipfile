@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+Flask = "==3.0.2"
+pymongo = "==4.6.1"
+python-dotenv = "==1.0.1"
+Pillow = "==10.0.0"
+pytesseract = "==0.3.10"
+python-jose = {extras = ["cryptography"], version = "==3.3.0"}
+passlib = {extras = ["bcrypt"], version = "==1.7.4"}
+flask-cors = "==4.0.0"
+marshmallow = "==3.20.2"
+
+[dev-packages]
+pytest = "*"
+black = "*"
+flake8 = "*"
+mypy = "*"
+
+[requires]
+python_version = "3.11"
